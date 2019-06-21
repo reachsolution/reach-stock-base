@@ -8,7 +8,9 @@
     "moment": "^2.24.0"
   },
   "scripts": {
-    "start": "babel-node server.js"
+    "start": "babel-node src/server.js",
+    "compile": "babel src --out-dir .compiled --source-maps --watch"
+    
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
